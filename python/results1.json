@@ -1,73 +1,180 @@
 [
     {
-      "Part Name": "HS-01T",
+      "Part Name": "HS-B1T",
       "Name": "HEAT SHIELD",
-      "Description": "Originally designed to be a high-end hibachi grill, the HS-01T turned out to be a fantastic little heat shield. What you do with it after you land is up to you.",
-      "Specifications": {
-        "Mass": "0.075t",
-        "Max Temp": "1700 K",
-        "Impact Tolerance": "20 m/s",
-        "Ablator": "0.05 t"
-      },
+      "Description": "Originally designed to be a high-end hibachi grill, the HS-B1T turned out to be a fantastic little heat shield. What you do with it after you land is up to you.",
+      "Mass": "0.075t",
+      "Max Temperature": "1700 K",
+      "Impact Tolerance": "20 m/s",
+      "Ablator": "6.05 t",
       "filename": "../svg/screenshots\\20240104180651_1.jpg"
     },
     {
-      "Part Name": "HS-125",
+      "Part Name": "H5-125",
       "Name": "HEAT SHIELD",
-      "Description": "The team at O.H.B Demolitions were skeptical working on heat shields, but they soon learned that superheating a part to insane temperatures and not having them explode was almost as much fun as blowing them up. Almost.",
-      "Specifications": {
-        "Mass": "0.300t",
-        "Max Temperature": "1700 K",
-        "Impact Tolerance": "20 m/s",
-        "Ablator": "0.2 t"
-      },
+      "Description": "The team at 0.4.B Demolitions were skeptical working on heat shields, but they soon learned that superheating a part to insane temperatures and not having them explode was almost as much fun as blowing them up. Almost",
+      "Mass": "0.300t",
+      "Max Temperature": "1700 K",
+      "Impact Tolerance": "20 m/s",
+      "Ablator": "Go",
+      "Resources": "50/8",
       "filename": "../svg/screenshots\\20240104180654_1.jpg"
     },
     {
-      "Part Name": "H5-250",
-      "Name": "HEAT SHIELD",
       "Description": "The HS-250 combines the latest high-tensile alloys combined with a heaping amount of <top-secret heat absorbing ingredient> to ensure your craft stays cool and safe during re-entry.",
-      "Specifications": {
-        "Mass": "1.200t",
-        "Max Temperature": "1700 K",
-        "Impact Tolerance": "20 m/s",
-        "Ablator": "0.8 t"
-      },
+      "Name": "HEAT SHIELD",
+      "Part Name": "HS-250 bsg",
+      "Impact Tolerance": "20 m/s",
+      "Mass": "1.200t",
+      "Max Temperature": "1700 K",
+      "Ablator": "8 7 t",
       "filename": "../svg/screenshots\\20240104180657_1.jpg"
     },
     {
-      "Part Name": "HS-I Deluxe",
+      "Part Name": "HS-I Delux",
       "Name": "INFLATABLE HEAT SHIELD",
-      "Description": "The HS-I is a unique inflatable heat shield and one of O.N.B. Demolition's best sellers. It is large enough to protect even extra large craft during re-entry and doubles as a bouncy house after landing! What's not to like?",
-      "Specifications": {
-        "Mass": "2.000t",
-        "Max Temperature": "1700 K",
-        "Impact Tolerance": "20 m/s"
-      },
+      "Description": "The HS-I is a unique inflatable heat shield, and one of 0.M.B. Demolition\u2019s best sellers. It is large enough to protect even extra large craft during re-entry, and it doubles as a bouncy house after landing! What's not to like?",
+      "Mass": "2.000t",
+      "Max Temperature": "1700 K",
+      "Impact Tolerance": "20 m/s",
       "filename": "../svg/screenshots\\20240104180659_1.jpg"
     },
     {
       "Part Name": "HS-375",
       "Name": "HEAT SHIELD",
       "Description": "The HS-375 large heat shield may resemble a children's swimming pool, but we can assure you that a great amount of time and energy went into its design. The R&D team only used it for swimming on weekends.",
-      "Specifications": {
-        "Mass + Resources": "2.700t",
-        "Max Temp": "1700 K",
-        "Impact Tolerance": "20 m/s",
-        "Ablator": "1.8 t"
-      },
+      "Mass": "2.700t",
+      "Max Temperature": "1700 K",
+      "Impact Tolerance": "20 m/s",
+      "Ablator": "os",
       "filename": "../svg/screenshots\\20240104180702_1.jpg"
     },
     {
-      "Part Name": "HS-500",
+      "Part Name": "H5-586",
       "Name": "HEAT SHIELD",
-      "Description": "The HS-588 is an extra large heat shield that uses an extra amount of high-tensile alloys combined with an extra amount of <top-secret heat absorbing ingredient> to keep you extra safe during extra extremes of re-entry. Did we mention it is extra stylish?",
-      "Specifications": {
-        "Mass + Resources": "4.800t",
-        "Max Temperature": "1700 K",
-        "Impact Tolerance": "20 m/s",
-        "Ablator": "3.2 t"
-      },
+      "Description": "The HS-360 is a high-end heat shield that provides extra safety during extreme re-entry. It is known for its stylish design.",
+      "Mass": "4.800t",
+      "Max Temperature": "1700 K",
+      "Impact Tolerance": "20 m/s",
+      "Ablator": "S72 t",
       "filename": "../svg/screenshots\\20240104180704_1.jpg"
+    },
+    {
+      "Part Name": "ASCM-A UAir Sniffer",
+      "Name": "ATMOSPHERIC SURVEY",
+      "Description": "The ASCM-A is a self-contained atmospheric lab built into a nose-cone configuration. Useful and stylish, it can collect a wealth of scientific information from any atmosphere you happen to be flying in.",
+      "Mass": "1.000t",
+      "Max Temperature": "600 K",
+      "Impact Tolerance": "8 m/s",
+      "Science Experiment": "Atmosphere Survey",
+      "Reports Created": "Data and Sample",
+      "Data Report Size": "75 KiB",
+      "Requirements": "Must be flying on a body with atmosphere",
+      "Experiment Duration": "62:08",
+      "filename": "../svg/screenshots\\20240104180718_1.jpg"
+    },
+    {
+      "Part Name": "ASCM-B",
+      "Name": "Little Sniffer",
+      "Description": "The ASCM-B is a small science sampling module that can be radially attached. Even though it is both stylish and functional, do not wear it like a backpack.",
+      "Mass": "0.050t",
+      "Max Temperature": "2000 K",
+      "Impact Tolerance": "10 m/s",
+      "Science Experiment": "Atmosphere Survey",
+      "Reports Created": "Data and Sample",
+      "Data Report Size": "75 KiB",
+      "Requirements": "Must be flying on a body with atmosphere",
+      "Experiment Duration": "62:08",
+      "filename": "../svg/screenshots\\20240104180721_1.jpg"
+    },
+    {
+      "Part Name": "RGESCM-81",
+      "Name": "Science Jr. Jr.",
+      "Description": "The RGESCM-81 is a miniaturized version of the GSCM-01, designed to perform the same environment survey experiment. Data reports are not miniaturized, so put the glasses away.",
+      "Mass": "0.050t",
+      "Max Temperature": "1000 K",
+      "Impact Tolerance": "10 m/s",
+      "Science Experiment": "Environment Survey",
+      "Data Report Size": "10 KiB",
+      "Requirements": "All situations and locations",
+      "filename": "../svg/screenshots\\20240104180727_1.jpg"
+    },
+    {
+      "Part Name": "RSCM-81",
+      "Name": "Sample Grabber",
+      "Description": "The RSCM-81 is a radial surface survey part that can meet all your science needs. It features a fascinating grabbing arm that can obtain its own samples. However, it should not be used to grab snacks as it can foul up the instrumentation.",
+      "Mass": "0.050t",
+      "Max Temperature": "2000 K",
+      "Impact Tolerance": "10 m/s",
+      "Requirements": "Must be landed or floating on a liquid.",
+      "Experiment Duration": "00:18",
+      "Reports Created": "Data and Sample",
+      "Data Report Size": "20 KiB",
+      "filename": "../svg/screenshots\\20240104180729_1.jpg"
+    },
+    {
+      "Part Name": "WSRL-B1",
+      "Name": "RADIATION SURVEY",
+      "Description": "The WSRL-B1 is designed to collect and process radiation samples across a wide spectrum of frequencies, both locally and in deep space. It is so sensitive that it can even detect and measure the very faint cosmic background radiation signature. But it can\u2019t be used to microwave snacks, so don\u2019t try.",
+      "Mass": "0.560t",
+      "Max Temperature": "600 K",
+      "Impact Tolerance": "8 mis",
+      "Requirements": "All situations and locations",
+      "Experiment": "Radiation Observation",
+      "Experiment Duration": "61:08",
+      "Resources Required": "Electric Charge 6.8 U/s",
+      "filename": "../svg/screenshots\\20240104180731_1.jpg"
+    },
+    {
+      "Part Name": "GSCM-81",
+      "Name": "Science Jr.",
+      "Description": "The GSCM-81 is a favorite for smaller satellites and landers. Designed to be completely configurable, the \u201cScience Jr.\u201d can be outfitted with everything but the kitchen sink, if the kitchen sink had scientific value.",
+      "Mass": "1.000t",
+      "Max Temperature": "600 K",
+      "Impact Tolerance": "8 m/s",
+      "Experiment": "Environment Survey",
+      "Reports Created": "Data and Sample",
+      "Data Report Size": "10 KiB",
+      "Requirements": "All situations and locations",
+      "filename": "../svg/screenshots\\20240104180733_1.jpg"
+    },
+    {
+      "Part Name": "OSCM-81",
+      "Name": "Mini-Lab bag",
+      "Description": "Packed with all the science equipment we could think of, the OSCM-81 is designed to collect and process samples of most anything in low or high orbit. Sure, the shape is somewhat odd, but look at all of that gold foil!",
+      "Mass": "1.000t",
+      "Max Temperature": "2000 K",
+      "Impact Tolerance": "10 m/s",
+      "filename": "../svg/screenshots\\20240104180736_1.jpg"
+    },
+    {
+      "Part Name": "MEL-25",
+      "Name": "U-bunk-lL\u00ae",
+      "Description": "When Kerbals first discovered a liquid ocean on both Laythe end Eve, the R\u00e9 Sciences modified one of their deep-sea prabes. It can analyze an alien oce: its chemical composition and yummy shellfish life signs",
+      "Mass": "3.000t",
+      "Max Temperature": "600 K",
+      "Impact Tolerance": "8 mis",
+      "Reports Created": "Data and Sample",
+      "Data Report Size": "150 KiB",
+      "Requirements": "Part must be submerged in liquid",
+      "Experiment Duration": "60:30",
+      "Crew Required": "1",
+      "filename": "../svg/screenshots\\20240104180738_1.jpg"
+    },
+    {
+      "Part Name": "OSL-25",
+      "Name": "Starlab",
+      "Description": "When a remote science probe just isn't enough, then the OSL-25 \"Starlab\" might be just what you're looking for. This spacious module is packed with all the science tech we could think of: thermometer, barometer, magnetometer, algae container, and, of course, a canister of mystery goo. It even has cup holders!",
+      "Mass": "3.000t",
+      "Max Temperature": "600 K",
+      "Impact Tolerance": "8 m/s",
+      "Stores Research Reports": true,
+      "Experiment": "Orbital Survey",
+      "Reports Created": "Data and Sample",
+      "Data Report Size": "150 KiB",
+      "Requirements": "Must be flying in Low or High Orbit",
+      "Experiment Duration": "06:00",
+      "Crew Required": 2,
+      "filename": "../svg/screenshots\\20240104180740_1.jpg"
     }
-]
+  ]

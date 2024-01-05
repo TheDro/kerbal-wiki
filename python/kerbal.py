@@ -15,8 +15,10 @@ execfile("./env.local.py")
 
 
 def get_json_from_image(image_path, verbose=False):
-    img = get_cropped_image(image_path)
-    raw_text = pytesseract.image_to_string(img)
+    imgs = get_cropped_images(image_path)
+    raw_text = ""
+    for img in imgs:
+        raw_text += "\n\n" + pytesseract.image_to_string(img)
     result = convert_to_json(raw_text)
     if verbose:
         print(raw_text)
@@ -25,14 +27,12 @@ def get_json_from_image(image_path, verbose=False):
 
 
 
-def get_cropped_image(image_path):
+def get_cropped_images(image_path):
     img = mpimg.imread(image_path)
-    img = img[50:950, 470:950]
-    return img
-
-def get_raw_text_from_image(img):
-    raw_text = pytesseract.image_to_string(img)
-    return raw_text
+    img1 = img[50:250, 470:1050]
+    img2 = img[250:950, 470:740]
+    img3 = img[250:950, 740:1050]
+    return [img1, img2, img3]
 
 def convert_to_json(raw_text):
     client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))

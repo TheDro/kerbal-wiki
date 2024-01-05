@@ -1,0 +1,73 @@
+[
+    {
+      "Part Name": "HS-01T",
+      "Name": "HEAT SHIELD",
+      "Description": "Originally designed to be a high-end hibachi grill, the HS-01T turned out to be a fantastic little heat shield. What you do with it after you land is up to you.",
+      "Specifications": {
+        "Mass": "0.075t",
+        "Max Temp": "1700 K",
+        "Impact Tolerance": "20 m/s",
+        "Ablator": "0.05 t"
+      },
+      "filename": "../svg/screenshots\\20240104180651_1.jpg"
+    },
+    {
+      "Part Name": "HS-125",
+      "Name": "HEAT SHIELD",
+      "Description": "The team at O.H.B Demolitions were skeptical working on heat shields, but they soon learned that superheating a part to insane temperatures and not having them explode was almost as much fun as blowing them up. Almost.",
+      "Specifications": {
+        "Mass": "0.300t",
+        "Max Temperature": "1700 K",
+        "Impact Tolerance": "20 m/s",
+        "Ablator": "0.2 t"
+      },
+      "filename": "../svg/screenshots\\20240104180654_1.jpg"
+    },
+    {
+      "Part Name": "H5-250",
+      "Name": "HEAT SHIELD",
+      "Description": "The HS-250 combines the latest high-tensile alloys combined with a heaping amount of <top-secret heat absorbing ingredient> to ensure your craft stays cool and safe during re-entry.",
+      "Specifications": {
+        "Mass": "1.200t",
+        "Max Temperature": "1700 K",
+        "Impact Tolerance": "20 m/s",
+        "Ablator": "0.8 t"
+      },
+      "filename": "../svg/screenshots\\20240104180657_1.jpg"
+    },
+    {
+      "Part Name": "HS-I Deluxe",
+      "Name": "INFLATABLE HEAT SHIELD",
+      "Description": "The HS-I is a unique inflatable heat shield and one of O.N.B. Demolition's best sellers. It is large enough to protect even extra large craft during re-entry and doubles as a bouncy house after landing! What's not to like?",
+      "Specifications": {
+        "Mass": "2.000t",
+        "Max Temperature": "1700 K",
+        "Impact Tolerance": "20 m/s"
+      },
+      "filename": "../svg/screenshots\\20240104180659_1.jpg"
+    },
+    {
+      "Part Name": "HS-375",
+      "Name": "HEAT SHIELD",
+      "Description": "The HS-375 large heat shield may resemble a children's swimming pool, but we can assure you that a great amount of time and energy went into its design. The R&D team only used it for swimming on weekends.",
+      "Specifications": {
+        "Mass + Resources": "2.700t",
+        "Max Temp": "1700 K",
+        "Impact Tolerance": "20 m/s",
+        "Ablator": "1.8 t"
+      },
+      "filename": "../svg/screenshots\\20240104180702_1.jpg"
+    },
+    {
+      "Part Name": "HS-500",
+      "Name": "HEAT SHIELD",
+      "Description": "The HS-588 is an extra large heat shield that uses an extra amount of high-tensile alloys combined with an extra amount of <top-secret heat absorbing ingredient> to keep you extra safe during extra extremes of re-entry. Did we mention it is extra stylish?",
+      "Specifications": {
+        "Mass + Resources": "4.800t",
+        "Max Temperature": "1700 K",
+        "Impact Tolerance": "20 m/s",
+        "Ablator": "3.2 t"
+      },
+      "filename": "../svg/screenshots\\20240104180704_1.jpg"
+    }
+]

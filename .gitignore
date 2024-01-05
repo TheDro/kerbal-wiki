@@ -1,3 +1,5 @@
 python/venv
 env.local.py
 __pycache__
+svg/screenshots
+svg/completed

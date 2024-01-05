@@ -1,0 +1,95 @@
+[
+  {
+    "Part Name": "Hoan T bsg",
+    "Name": "HEAT SHIELD",
+    "Description": "Originally designed to be a high-end hibachi grill, the HS-B1T turned out to be a fantastic little heat shield. What you do with it after you land is up to you.",
+    "Specifications": {
+      "Impact Tolerance": "20 m/s",
+      "Mass": "0.075t",
+      "Max Temperature": "1700 K",
+      "Ablator": "6.05 t"
+    },
+    "filename": "../svg/screenshots\\20240104180651_1.jpg"
+  },
+  {
+    "Part Name": "H5-125",
+    "Name": "HEAT SHIELD",
+    "Description": "The team at 0.4.B Demolitions were skeptical working on heat shields, but they soon learned that superheating a part to insane temperatures and not having them explode was almost as much fun as blowing them up. Almost",
+    "Specifications": {
+      "Impact Tolerance": "20 m/s",
+      "Mass": "0.300t",
+      "Max Temperature": "1700 K",
+      "Ablator": "Go"
+    },
+    "filename": "../svg/screenshots\\20240104180654_1.jpg"
+  },
+  {
+    "Part Name": "HS-250",
+    "Name": "HEAT SHIELD",
+    "Description": "The HS-250 combines the latest high-tensile alloys combined with a heaping amount of <top-secret heat absorbing ingredient> to ensure your craft stays cool and safe during re-entry.",
+    "Specifications": {
+      "Mass": "1.200t",
+      "Max Temperature": "1700 K",
+      "Impact Tolerance": "20 m/s",
+      "Ablator": "8.7 t"
+    },
+    "filename": "../svg/screenshots\\20240104180657_1.jpg"
+  },
+  {
+    "Part Name": "H5-I Delux",
+    "Name": "INFLATABLE HEAT SHIELD",
+    "Description": "The HS-I is a unique inflatable heat shield and one of 0.M.B. Demolition's best sellers. It is large enough to protect even extra large craft during re-entry, and it doubles as a bouncy house after landing! What's not to like?",
+    "Specifications": {
+      "Mass": "2.000t",
+      "Max Temperature": "1700 K",
+      "Impact Tolerance": "20 m/s"
+    },
+    "filename": "../svg/screenshots\\20240104180659_1.jpg"
+  },
+  {
+    "Part Name": "HS-375",
+    "Name": "HEAT SHIELD",
+    "Description": "The HS-375 large heat shield may resemble a children's swimming pool, but we can assure you that a great amount of time and energy went into its design. The R&D team only used it for swimming on weekends.",
+    "Specifications": {
+      "Mass": "2.700t",
+      "Max Temperature": "1700 K",
+      "Impact Tolerance": "20 m/s",
+      "Ablator": "os"
+    },
+    "Resources": "50/8",
+    "filename": "../svg/screenshots\\20240104180702_1.jpg"
+  },
+  {
+    "Part Name": "H5-586",
+    "Name": "HEAT SHIELD",
+    "Description": "The HS-360 is an extra safe heat shield that uses an extra layer to provide extra protection during extreme re-entry. And yes, it is extra stylish.",
+    "Specifications": {
+      "Mass": "4.800t",
+      "Max Temperature": "1700 K",
+      "Impact Tolerance": "20 m/s",
+      "Ablator": "S72 t"
+    },
+    "Resources": [
+      "50/8"
+    ],
+    "filename": "../svg/screenshots\\20240104180704_1.jpg"
+  },
+  {
+    "Part Name": "ASCM-A UAir Sniffer",
+    "Name": "ATMOSPHERIC SURVEY",
+    "Description": "The ASCM-A is a self-contained atmospheric lab built into a nose-cone configuration. Useful and stylish, it can collect a wealth of scientific information from any atmosphere you happen to be flying in.",
+    "Specifications": {
+      "Impact Tolerance": "8 mis",
+      "Mass": "1.000t",
+      "Max Temperature": "600 K"
+    },
+    "Science Experiment": {
+      "Name": "Atmosphere Survey",
+      "Reports Created": "Data and Sample",
+      "Data Report Size": "75 KiB",
+      "Requirements": "Must be flying on a body with atmosphere",
+      "Experiment Duration": "62:08"
+    },
+    "filename": "../svg/screenshots\\20240104180718_1.jpg"
+  }
+]

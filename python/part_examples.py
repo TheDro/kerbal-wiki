@@ -26,7 +26,9 @@ Max Temp
         "Part Name": "GRFN-125",
         "Name": "GRIDFIN",
         "Description": "The GRIDFIN provides both drag and steering ability to a craft. It is a very intentional part and was in no way inspired by a faulty airbrake.",
-        "Specifications": {"Mass": "0.080t", "Max Temperature": "1000 K", "Impact Tolerance": "15 m/s"}
+        "Mass": "0.080t", 
+        "Max Temperature": "1000 K", 
+        "Impact Tolerance": "15 m/s"
     }
 },{
     "input": """
@@ -63,7 +65,9 @@ oe
             "Kerbal pilots to slow a plane down, C7 created a part that "
             "replicates a shoddily-welded hull on demand. Focus group "
             "testing continues in order to improve it.",
-        "Specifications": {"Impact Tolerance": "15 m/s", "Mass": "0.040t", "Max Temperature": "1000 K"}
+        "Impact Tolerance": "15 m/s", 
+        "Mass": "0.040t", 
+        "Max Temperature": "1000 K"
     }
 },{
     "input": """
@@ -94,6 +98,8 @@ Max Temp
                    "engineering.",
         "Name": "GRIDFIN",
         "Part Name": "GRFN-250",
-        "Specifications": {"Impact Tolerance": "15 m/s", "Mass": "0.320t", "Max Temperature": "1000 K"}
+        "Impact Tolerance": "15 m/s",
+        "Mass": "0.320t",
+        "Max Temperature": "1000 K"
     }
 }]

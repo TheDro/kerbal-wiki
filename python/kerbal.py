@@ -36,8 +36,9 @@ def get_cropped_images(image_path):
 
 def convert_to_json(raw_text):
     client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-    # remap examples
+
     messages = []
+    messages.append({"role": "user", "content": "Always return valid JSON."})
     for example in examples:
         messages.append({"role": "user", "content": example["input"]})
         messages.append({"role": "assistant", "content": json.dumps(example["output"])})
@@ -51,9 +52,41 @@ def convert_to_json(raw_text):
 
     content = completion.model_dump()["choices"][0]["message"]["content"]
 
+    try:
+        return json.loads(content)
+    except ValueError as e:
+        print("Invalid JSON:", e)
+        return None
 
-    return json.loads(content)
+
+def dict_to_wiki_table(array_of_dicts):
+    if not array_of_dicts:
+        return "No data to convert"
+
+    # Extracting headers (keys of the first dictionary)
+    headers = array_of_dicts[0].keys()
+
+    # Wiki table start
+    wiki_table = '{| class="wikitable"\n'
+
+    # Adding headers
+    wiki_table += '!' + '\n!'.join(headers) + '\n'
+
+    # Adding rows
+    for dictionary in array_of_dicts:
+        row = '|-\n'
+        row += '|' + '\n|'.join(str(dictionary[key]) for key in headers) + '\n'
+        wiki_table += row
+
+    # Wiki table end
+    wiki_table += '|}'
+
+    return wiki_table
+
+
+
+
 
 def pp(x):
-    printer = pprint.PrettyPrinter(indent=4, width=120, compact=False)
+    printer = pprint.PrettyPrinter(indent=4, width=1000, compact=False)
     printer.pprint(x)

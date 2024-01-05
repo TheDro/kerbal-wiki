@@ -64,7 +64,10 @@ def dict_to_wiki_table(array_of_dicts):
         return "No data to convert"
 
     # Extracting headers (keys of the first dictionary)
-    headers = array_of_dicts[0].keys()
+    headers = set()
+    for dictionary in array_of_dicts:
+        headers.update(dictionary.keys())
+    headers = sorted(list(headers))
 
     # Wiki table start
     wiki_table = '{| class="wikitable"\n'
@@ -75,7 +78,7 @@ def dict_to_wiki_table(array_of_dicts):
     # Adding rows
     for dictionary in array_of_dicts:
         row = '|-\n'
-        row += '|' + '\n|'.join(str(dictionary[key]) for key in headers) + '\n'
+        row += '|' + '\n|'.join(str(dictionary.get(key)) for key in headers) + '\n'
         wiki_table += row
 
     # Wiki table end

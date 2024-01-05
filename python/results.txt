@@ -1,37 +1,57 @@
 {| class="wikitable"
-!Part Name
-!Name
-!Description
+!Ablator
+!Impact Tolerance
 !Mass
 !Max Temperature
-!Impact Tolerance
-!Ablator
-!filename
+!Name
+!Part Name
+!Resources
 |-
-|HS-B1T
-|HEAT SHIELD
-|Originally designed to be a high-end hibachi grill, the HS-B1T turned out to be a fantastic little heat shield. What you do with it after you land is up to you.
+|6.05 t
+|20 m/s
 |0.075t
 |1700 K
-|20 m/s
-|6.05 t
-|../svg/screenshots\20240104180651_1.jpg
-|-
-|H5-125
 |HEAT SHIELD
-|The team at 0.4.B Demolitions were skeptical working on heat shields, but they soon learned that superheating a part to insane temperatures and not having them explode was almost as much fun as blowing them up. Almost
+|HS-B1T
+|None
+|-
+|Go
+|20 m/s
 |0.300t
 |1700 K
-|20 m/s
-|Go
-|../svg/screenshots\20240104180654_1.jpg
-|-
-|HS-250 bsg
 |HEAT SHIELD
-|The HS-250 combines the latest high-tensile alloys combined with a heaping amount of <top-secret heat absorbing ingredient> to ensure your craft stays cool and safe during re-entry.
+|H5-125
+|50/8
+|-
+|8 7 t
+|20 m/s
 |1.200t
 |1700 K
+|HEAT SHIELD
+|HS-250 bsg
+|None
+|-
+|None
 |20 m/s
-|8 7 t
-|../svg/screenshots\20240104180657_1.jpg
+|2.000t
+|1700 K
+|INFLATABLE HEAT SHIELD
+|HS-I Delux
+|None
+|-
+|os
+|20 m/s
+|2.700t
+|1700 K
+|HEAT SHIELD
+|HS-375
+|None
+|-
+|S72 t
+|20 m/s
+|4.800t
+|1700 K
+|HEAT SHIELD
+|H5-586
+|None
 |}

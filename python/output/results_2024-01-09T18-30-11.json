@@ -1,0 +1,543 @@
+[
+  {
+    "Part Name": "Nk1 Explorer",
+    "Name": "SINGLE SEAT LANDER CAN",
+    "Description": "The Nk1 Explorer is a single-seat lander can designed for landing on strange new grounds. It is very lightweight but packs the necessary features: a limited battery, monopropellant storage, and a small reaction wheel.",
+    "Impact Tolerance": "10 m/s",
+    "Mass": "0.670t",
+    "Max Temperature": "750 K",
+    "Electric Charge": "50 U",
+    "Monopropellant": "0.06 t",
+    "Crew Required": "1",
+    "Torque": {
+      "Pitch": "3 kN",
+      "Yaw": "3 kN",
+      "Roll": "3 kN"
+    },
+    "Max. Range": "206 Hn",
+    "Transmission Rate": "8.7 KiB/s",
+    "Reports Created": "Data",
+    "Data Report Size": "5 KiB",
+    "Requirements": "All situations and locations",
+    "filename": "./input\\20240108201211_1.jpg"
+  },
+  {
+    "Part Name": "Nk1 \"Tin Can\" Command Pod",
+    "Name": "SINGLE SEAT COMMAND POD",
+    "Description": "The Nk1 \"Tin Can\" single-seat command pod is perfect for smaller rockets and other craft. It has a small battery, monopropellant storage, and a built-in reaction wheel. It is guaranteed to keep your pilot and their snacks safe. Just remember to pack a toothbrush for Val.",
+    "Mass": "0.898t",
+    "Max Temperature": "850 K",
+    "Impact Tolerance": "15 m/s",
+    "Electric Charge": "50 U",
+    "Monopropellant": "0.04 t",
+    "Crew Required": "1",
+    "Torque": "Pitch: 5 kN, Yaw: 5 kN, Roll: 5 kN",
+    "Max Range": "206Hn",
+    "Transmission Rate": "8.7 KiB/s",
+    "Reports Created": "Data",
+    "Data Report Size": "5 KiB",
+    "Requirements": "All situations and locations",
+    "filename": "./input\\20240108201213_1.jpg"
+  },
+  {
+    "Part Name": "Mki-3 \"Gumball\"",
+    "Name": "THREE SEAT COMMAND POD",
+    "Description": "The rounded shape of the Mk1-9 Gunbell may remind Jeb of his favorite snack, but this is no softy. It is equipped with a sizable battery and monopropellant storage. It boasts a powerful reaction wheel capable of stabilizing even large craft.",
+    "Mass": "2.723t",
+    "Max Temperature": "850 K",
+    "Impact Tolerance": "15 m/s",
+    "Electric Charge": "150 U",
+    "Monopropellant": "Gol2 %",
+    "Crew Required": "1",
+    "Experiments": [
+      {
+        "Experiment Name": "Crew Observation",
+        "Reports Created": "Data"
+      }
+    ],
+    "Reaction Wheel": {
+      "Torque": {
+        "Pitch": "12.5 kN",
+        "Yaw": "12.5 kN",
+        "Roll": "12.5 kN"
+      },
+      "Data Report Size": "\u00a7 KiB",
+      "Requirements": "All situations and locations",
+      "Resources Required": {
+        "Electric Charge": "8.541 /s max."
+      }
+    },
+    "RCS Thruster": {
+      "RCS Max. Thrust": {
+        "1 atm": "0.4 KN",
+        "Vac.": "1.8 kN"
+      },
+      "RCS Isp": {
+        "1 atm": "108",
+        "Vac.": "240 8"
+      },
+      "Propellants": {
+        "Monopropellant": "8.025 t/min max."
+      }
+    },
+    "Data Transmitter": {
+      "Max. Range": "266m",
+      "Transmission Rate": "0.7 KiB/s",
+      "Resources Required": {
+        "Electric Charge": "1.333 /s max."
+      }
+    },
+    "filename": "./input\\20240108201214_1.jpg"
+  },
+  {
+    "Part Name": "Mk2 \"Tuna Can\"",
+    "Name": "TWO SEAT LANDER CAN",
+    "Description": "The Mk2 'Tuna Can' is a cozy two-seat lander can designed to transport a pilot and crew to the surface of any body they wish to explore. Lightweight in design, it comes equipped with a small battery, monopropellant storage, and a built-in reaction wheel. Just don't forget the snacks.",
+    "Mass": "1.515t",
+    "Max Temperature": "750 K",
+    "Impact Tolerance": "15 m/s",
+    "Electric Charge": "100 U",
+    "Monopropellant": "0.16 t",
+    "Crew Required": "1",
+    "filename": "./input\\20240108201217_1.jpg"
+  },
+  {
+    "Part Name": "PPD-12",
+    "Name": "Sightseer",
+    "Description": "The PPD-12 \"Sightseer\" is a command pod with a view. It is equipped with a small battery, monopropellant storage, and a small reaction wheel. The hexagonal windows command a magnificent view. The only downside is it has only one seat: please remember ta share.",
+    "Mass": "0.741t",
+    "Max Temperature": "750 K",
+    "Impact Tolerance": "10 m/s",
+    "Electric Charge": "200 U",
+    "Monopropellant": "0.04 t",
+    "Crew Required": "1",
+    "Torque": {
+      "Pitch": "9 kN",
+      "Yaw": "9 kN",
+      "Roll": "9 kN"
+    },
+    "Data Transmitter": {
+      "Max Range": "206Hn",
+      "Transmission Rate": "8.7 KiB/s"
+    },
+    "Science Experiment": {
+      "Experiment": "Grew Observation",
+      "Reports Created": "Data",
+      "Data Report Size": "5 KiB",
+      "Requirements": "All situations and locations",
+      "Crew Required": "1"
+    },
+    "filename": "./input\\20240108201218_1.jpg"
+  },
+  {
+    "Part Name": "WkS-3",
+    "Name": "FIVE SEAT COMMAND POD",
+    "Description": "Originally called the Cockpit-plus-two, the 5-seat \"Cockatoo\" is a second-generation command pod that provides both safety and comfort for crew members. It is rumored to have enough room to pack several days of emergency snacks.",
+    "Mass": "4.693t",
+    "Max Temperature": "850 K",
+    "Impact Tolerance": "10 m/s",
+    "Stats": {
+      "Electric Charge": "500 U",
+      "Monopropellant": "@e3 t"
+    },
+    "View": "Lose",
+    "Modules": [
+      {
+        "Module Name": "COMMAND MODULE",
+        "Experiment": "SCIENCE EXPERIMENT",
+        "Crew Required": "1",
+        "Experiment Details": "Crew Observation",
+        "Reports Created": "Data",
+        "Data Report Size": "5 KiB",
+        "Torque": "in all situations and locations",
+        "Yaw": "25 kN",
+        "Resources Required": {
+          "Electric Charge": "1.083 /s max."
+        }
+      },
+      {
+        "Module Name": "RCS THRUSTER",
+        "RCS Max. Thrust": {
+          "1 atm": "0.4 KN",
+          "Vac": "1.8 kN"
+        },
+        "RCS Isp": {
+          "1 atm": "108",
+          "Vac": "240"
+        },
+        "Propellants": {
+          "Monopropellant": "8.025 t/min max."
+        }
+      },
+      {
+        "Module Name": "DATA TRANSMITTER",
+        "Max. Range": "266m",
+        "Transmission Rate": "0.7 KiB/s",
+        "Resources Required": {
+          "Electric Charge": "1.333 /s max."
+        }
+      }
+    ],
+    "filename": "./input\\20240108201220_1.jpg"
+  },
+  {
+    "Part Name": "Stayrutrik",
+    "Name": "REMOTE GUIDANCE UNIT 7",
+    "Description": "The Stayputnik Remote Guidance Unit (or RGU) provides the ultimate crew safety feature: no crew! The Stayputnik has 2 very small batteries and a tiny internal reaction wheel. If you're missing the Kerbal touch, attach a couple of lights for eyes.",
+    "Mass": "0.053t",
+    "Max Temperature": "750 K",
+    "Impact Tolerance": "8 m/s",
+    "Electric Charge": "10 U",
+    "Requires": "CommNet Connection",
+    "Resources Required": {
+      "Electric Charge": "0.825 /s max."
+    },
+    "Reaction Wheel": {
+      "Torque": {
+        "Pitch": "6.1 kN",
+        "Yaw": "6.1 kN",
+        "Roll": "8.1 kN"
+      },
+      "Resources Required": {
+        "Electric Charge": "0.004 /s max."
+      }
+    },
+    "Data Transmitter": {
+      "Max Range": "200m",
+      "Transmission Rate": "6.7 KiB/s",
+      "Resources Required": {
+        "Electric Charge": "1.333 /s max."
+      }
+    },
+    "filename": "./input\\20240108201227_1.jpg"
+  },
+  {
+    "Part Name": "OKTO x",
+    "Name": "REMOTE GUIDANCE UNIT",
+    "Description": "The OKTO is a heavily insulated, autonomous remote guidance unit designed for small satellites and probes. It comes equipped with a small battery and antenna. While it has a less powerful reaction wheel than the HECS, it has 8 smooth, shiny attachment surfaces.",
+    "Mass": "0.109t",
+    "Max Temperature": "600 K",
+    "Impact Tolerance": "8 mis",
+    "Electric Charge": "20 U",
+    "filename": "./input\\20240108201230_1.jpg"
+  },
+  {
+    "Part Name": "OKTO2",
+    "Name": "REMOTE GUIDANCE UNIT",
+    "Description": "The OKTO2 is a micro-sized, autonomous remote guidance unit. It is extremely lightweight, has a very limited battery supply, and a miniature internal reaction wheel. While it might look like a toy, please refrain from throwing expensive fun probes.",
+    "Mass": "0.042t",
+    "Max Temperature": "600 K",
+    "Impact Tolerance": "8 m/s",
+    "Electric Charge": "5 U",
+    "Requires CommNet Connection": true,
+    "Can Hibernate": true,
+    "Resources Required": {
+      "Electric Charge": {
+        "Current": "0.820 /s",
+        "Maximum": "0.820 /s"
+      }
+    },
+    "Reaction Wheel": {
+      "Torque": {
+        "Pitch": "6.1 KN",
+        "Yaw": "4.1 kN",
+        "Roll": "0.1 kN"
+      },
+      "Resources Required": {
+        "Electric Charge": {
+          "Current": "8.804 /s",
+          "Maximum": "8.804 /s"
+        }
+      }
+    },
+    "Data Transmitter": {
+      "Max Range": "206m",
+      "Transmission Rate": "8.7 KiB/s",
+      "Resources Required": {
+        "Electric Charge": {
+          "Current": "1.333 /s",
+          "Maximum": "1.333 /s"
+        }
+      }
+    },
+    "filename": "./input\\20240108201232_1.jpg"
+  },
+  {
+    "Part Name": "RC-8815",
+    "Name": "REMOTE GUIDANCE UNIT",
+    "Description": "The RC-0815 is an autonomous remote guidance unit with a small, thin profile. Equipped with an internal battery and built-in reaction wheel, it is an excellent choice for returning boosters to the surface. Theories that there is a pilot inside are wholly unfounded.",
+    "Wi Statistics": {
+      "Mass": "0.120t",
+      "Max Temp": "800 K",
+      "Impact Tolerance": "8 m/s",
+      "Stores": "Research Repo",
+      "Electric Charge": "Joo |)"
+    },
+    "COMMAND MODULE": {
+      "Requires": "CommNet Connection",
+      "Resources Required": {
+        "Electric Charge": "0.050 /s max."
+      }
+    },
+    "REACTION WHEEL": {
+      "Torque": {
+        "Pitch": "1 kN",
+        "Yaw": "1 kN",
+        "Roll": "1 kN"
+      },
+      "Resources Required": {
+        "Electric Charge": "0.043 /s max."
+      }
+    },
+    "DATA TRANSMITTER": {
+      "Max. Range": "200m",
+      "Transmission Rate": "6.7 KiB/s",
+      "Resources Required": {
+        "Electric Charge": "1.333 /s max."
+      }
+    },
+    "filename": "./input\\20240108201246_1.jpg"
+  },
+  {
+    "Part Name": "RC-R RoveMate",
+    "Name": "REMOTE GUIDANCE UNIT AND ROVER CHASSIS",
+    "Description": "The RC-R RoveMate is a remote guidance unit designed for rovers. It is low and flat, perfectly shaped to fit a variety of wheels. It can accommodate a couple of command chairs and is wide enough to avoid sharp turns on rough terrains.",
+    "Impact Tolerance": "8 m/s",
+    "Mass": "0.156t",
+    "Max Temperature": "800 K",
+    "Electric Charge": "120 U",
+    "filename": "./input\\20240108201247_1.jpg"
+  },
+  {
+    "Part Name": "RC-LO1",
+    "Name": "REMOTE GUIDANCE UNIT",
+    "Description": "The RC-LO1 is a large autonomous remote guidance unit. It has a sizable battery and built-in reaction wheel. The low profile is excellent for safely returning boosters and Kerbals too scared to continue.",
+    "Mass": "0.562t",
+    "Max Temperature": "800 K",
+    "Impact Tolerance": "8 m/s",
+    "Stores Research": "Repo",
+    "Electric Charge": "30 U",
+    "Requires CommNet Connection": true,
+    "Resources Required": {
+      "Electric Charge": "0.050 /s max."
+    },
+    "REACTION WHEEL": {
+      "Torque": {
+        "Pitch": "5 kN",
+        "Yaw": "5 kN",
+        "Roll": "5 kN"
+      },
+      "Resources Required": {
+        "Electric Charge": "8.217 /s max."
+      }
+    },
+    "DATA TRANSMITTER": {
+      "Max. Range": "200m",
+      "Transmission Rate": "6.7 KiB/s",
+      "Resources Required": {
+        "Electric Charge": "1.333 /s max."
+      }
+    },
+    "filename": "./input\\20240108201251_1.jpg"
+  },
+  {
+    "Part Name": "RC-HLoS",
+    "Name": "HEAVY REMOTE GUIDANCE UNIT",
+    "Description": "Another of STEADLER's fine robotic guidance systems, the RC-HLO2 is designed for controlling large craft in even the most difficult conditions.",
+    "Impact Tolerance": "8 mis",
+    "Mass": "1.103t",
+    "Max Temperature": "800 K",
+    "Electric Charge": "G8 W",
+    "Requires CommNet Connection": true,
+    "Resources Required": [
+      {
+        "Resource": "Electric Charge",
+        "Max Value": "0.050 /s"
+      },
+      {
+        "Resource": "Electric Charge",
+        "Max Value": "0.433 /s"
+      },
+      {
+        "Resource": "Electric Charge",
+        "Max Value": "1.333 /s"
+      }
+    ],
+    "Reaction Wheel": {
+      "Torque": {
+        "Pitch": "10 kN",
+        "Yaw": "18 kN",
+        "Roll": "16 kN"
+      }
+    },
+    "Data Transmitter": {
+      "Max Range": "200m",
+      "Transmission Rate": "6.7 KiB/s"
+    },
+    "filename": "./input\\20240108201253_1.jpg"
+  },
+  {
+    "Part Name": "RC-eLeL",
+    "Name": "HEAVY REMOTE GUIDANCE UNIT",
+    "Description": "As rockets get larger and larger, STEADLER is ready with an even larger remote guidance system. The AI can get a little snarky at times, but her heart is in the right place, on a server.",
+    "Mass": "2.006t",
+    "Max Temperature": "800 K",
+    "Impact Tolerance": "8 mis",
+    "Electric Charge": "120 U",
+    "filename": "./input\\20240108201256_1.jpg"
+  },
+  {
+    "Part Name": "MkL Peregrine",
+    "Name": "SINGLE SEAT INLINE COCKPIT",
+    "Description": "The Peregrine is designed for small, fast jets and other craft. This single seat inline cockpit comes equipped with a built-in battery and reaction wheel, and it holds a small amount of monopropellant. The non-pointy nose is a front attachment node perfect for a jet intake or small parachute.",
+    "Mass": "1.248t",
+    "Max Temperature": "1000 K",
+    "Impact Tolerance": "40 m/s",
+    "Electric Charge": "50 U",
+    "Monopropellant": "0.04 t",
+    "filename": "./input\\20240108201259_1.jpg"
+  },
+  {
+    "Part Name": "MEL \"Raver X",
+    "Name": "SINGLE SEAT COCKPIT",
+    "Description": "Sleek and sharp, everything about the Raven screams fast. This single seat cockpit comes equipped with a built-in battery and a small reaction wheel, and is equally perfect for jets, small space planes, or cool-looking rockets.",
+    "Impact Tolerance": "40 mis",
+    "Mass": "1.225t",
+    "Max Temperature": "1000 K",
+    "Electric Charge": "50 U",
+    "Monopropellant": "@\u00b002",
+    "Crew Required": 1,
+    "Torque": {
+      "Pitch": "10 kN",
+      "Yaw": "18 kN",
+      "Roll": "16 kN"
+    },
+    "Max Range": "206Hn",
+    "Transmission Rate": "8.7 KiB/s",
+    "Data Report Size": "5 KiB",
+    "filename": "./input\\20240108201302_1.jpg"
+  },
+  {
+    "Part Name": "Mk2 \"Oseres\" x",
+    "Name": "TWO SEAT INLINE COCKPIT",
+    "Description": "The Osprey may look like a two-seat cockpit with the nose broken off (and it is) but hear us out. It comes equipped with a built-in battery and reaction wheel, and holds a small amount of monopropellant. And now it has a forward attachment node, so you can bolt whatever you want to the front of it.",
+    "Mass": "2.420t",
+    "Max Temperature": "1500 K",
+    "Impact Tolerance": "50 m/s",
+    "Electric Charge": "150 U",
+    "Monopropellant": "Goth",
+    "Crew Required": 1,
+    "Torque": {
+      "Pitch": "18 kN",
+      "Yaw": "15 kN",
+      "Roll": "15 KN"
+    },
+    "Data Transmitter": {
+      "Max Range": "206Hn",
+      "Transmission Rate": "8.7 KiB/s"
+    },
+    "Science Experiment": {
+      "Experiment": "Grew Observation",
+      "Reports Created": "Data",
+      "Data Report Size": "5 KiB",
+      "Requirements": "All situations and locations",
+      "Crew Required": 1
+    },
+    "filename": "./input\\20240108201303_1.jpg"
+  },
+  {
+    "Part Name": "Nk2",
+    "Name": "Phoenix x",
+    "Description": "The Phoenix is designed to handle extreme conditions, and it is a perfect choice for large jets and space planes. This cool-looking two-seater comes equipped with a built-in battery and reaction wheel, and it holds a small amount of monopropellant. But please, do NOT catch it on fire to see if it rises from the ashes.",
+    "Wi Statistics": {
+      "Mass": "2.375t",
+      "Max Temp": "1500 K",
+      "Impact Tolerance": "50 m/s"
+    },
+    "COMMAND MODULE": {
+      "Crew Required": "1",
+      "Resources Required": {
+        "Electric Charge": "0.650 /s max."
+      }
+    },
+    "REACTION WHEEL": {
+      "Torque": {
+        "Pitch": "18 kN",
+        "Yaw": "15 kN",
+        "Roll": "15 KN"
+      },
+      "Resources Required": {
+        "Electric Charge": "0.650 /s max."
+      }
+    },
+    "DATA TRANSMITTER": {
+      "Max. Range": "206Hn",
+      "Transmission Rate": "8.7 KiB/s",
+      "Resources Required": {
+        "Electric Charge": "1.333 /s max."
+      }
+    },
+    "SCIENCE EXPERIMENT": {
+      "Experiment": "Grew Observation",
+      "Reports Created": "Data",
+      "Data Report Size": "5 KiB",
+      "Requirements": "All situations and locations",
+      "Crew Required": "1",
+      "Resources Required": {
+        "Electric Charge": "8.0 U/0"
+      }
+    },
+    "filename": "./input\\20240108201305_1.jpg"
+  },
+  {
+    "Part Name": "EAS-1",
+    "Name": "Grumble Seat",
+    "Description": "The EAS-1 External Command Seat is designed for rovers, built to be lightweight and durable. With an all-metal design, it earned the inglorious nickname \u201cGrumble Seat.\u201d Daredevils can attach one to the side of a rocket and enjoy the ride.",
+    "Mass": "0.050t",
+    "Max Temperature": "750 K",
+    "Impact Tolerance": "50 m/s",
+    "Reports Created": "Data",
+    "Data Report Size": "5 KiB",
+    "Requirements": "All situations and locations",
+    "Crew Required": "1",
+    "filename": "./input\\20240108201311_1.jpg"
+  },
+  {
+    "Part Name": "TR-3",
+    "Name": "Bulldog",
+    "Description": "Big and mean best describe the 'Bulldog,' the only command pod specifically designed with heavy rovers in mind. Our marketing department would like to point out it looks really cool on rockets too.",
+    "Wi Statistics": {
+      "Mass": "3.298t",
+      "Max Temp": "750 K",
+      "Impact Tolerance": "45 mis"
+    },
+    "COMMAND MODULE": {
+      "Crew Required": 1
+    },
+    "REACTION WHEEL.": {
+      "Torque": {
+        "Pitch": "40 kN",
+        "Yaw": "48 kN",
+        "Roll": "20 kN"
+      },
+      "Resources Required": {
+        "Electric Charge": "1.500 /s max."
+      }
+    },
+    "DATA TRANSMITTER": {
+      "Max. Range": "206Hn",
+      "Transmission Rate": "8.7 KiB/s",
+      "Resources Required": {
+        "Electric Charge": "1.333 /s max."
+      }
+    },
+    "SCIENCE EXPERIMENT": {
+      "Experiment": "Grew Observation",
+      "Reports Created": "Data",
+      "Data Report Size": "5 KiB",
+      "Requirements": "All situations and locations",
+      "Crew Required": 1
+    },
+    "filename": "./input\\20240108201313_1.jpg"
+  }
+]

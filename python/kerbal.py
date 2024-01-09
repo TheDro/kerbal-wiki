@@ -26,12 +26,11 @@ def get_json_from_image(image_path, verbose=False):
     return result
 
 
-
 def get_cropped_images(image_path):
     img = mpimg.imread(image_path)
-    img1 = img[50:250, 470:1050]
+    img1 = img[50:250, 470:1300]
     img2 = img[250:950, 470:740]
-    img3 = img[250:950, 740:1050]
+    img3 = img[250:950, 740:1300]
     return [img1, img2, img3]
 
 def convert_to_json(raw_text):
@@ -59,6 +58,14 @@ def convert_to_json(raw_text):
         return None
 
 
+def get_files(directory, extensions=["jpg", "png"]):
+    files = []
+    for filename in os.listdir(directory):
+        if filename.split(".")[-1] in extensions:
+            file_path = os.path.join(directory, filename)
+            files.append(file_path)
+    return files
+
 def dict_to_wiki_table(array_of_dicts):
     if not array_of_dicts:
         return "No data to convert"
@@ -70,7 +77,7 @@ def dict_to_wiki_table(array_of_dicts):
     headers = sorted(list(headers))
 
     # Wiki table start
-    wiki_table = '{| class="wikitable"\n'
+    wiki_table = '{| class="sortable fandom-table"\n'
 
     # Adding headers
     wiki_table += '!' + '\n!'.join(headers) + '\n'
